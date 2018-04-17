@@ -1,0 +1,45 @@
+/*styles.css weather guru*/
+html {
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+}
+
+
+body { 
+    width: auto;
+    font-family: "arial";
+    color: cornsilk;
+    
+}
+h1, h2, h3 {
+    text-align: center;
+}
+#video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;    
+    opacity: 0.5;
+}
+.weather1 {   
+    border: 2px;
+    border-style: double solid black;
+    margin: auto;
+    width: 250px;
+    background-color: #36454f;
+    padding: 10px;
+    z-index: 20;
+}
+form {
+padding-left: 15%;
+
+}
+
+p.result {
+    padding-left: 15%;
+}
